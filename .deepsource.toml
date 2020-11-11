@@ -1,0 +1,18 @@
+version = 1
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  style_guide = "google"
+  dialect = "typescript"
+  plugins = [
+    "meteor",
+    "react",
+    "vue"
+  ]
+  environment = [
+    "nodejs",
+    "mongo"
+  ]
